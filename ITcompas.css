@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: url(background.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+    background-position: center top;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.menu {
+    background-color: #fde6bd;
+    width: 100%;
+    text-align: left;
+    height: 66px;
+    color: white;
+    font-size: 28px;
+}
+.sandwich {
+    width: 30%;
+    float: left;
+    padding: 0 0 0 5%;
+    margin: 0px 0;
+}
+.sandwich .button_menu {
+	height: 66px;
+}
+.sandwich .button_image {
+	width:48px;
+	height: auto;
+	margin-top : 5px;
+	margin-bottom : 8px;
+    margin-left: -72px;
+}
+.button_menu ul.list {
+	text-align: left;
+    position: absolute;
+    width: 240px;
+    top: 66px;
+    display: none;
+    margin: 0;
+    padding: 4px 0;
+    font-size: 16px;
+	line-height: 18px;
+    background-color: #b0d1d8;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.button_menu ul.list li {
+}
+.button_menu ul.list li a {
+	display: block;
+	padding: 6px 10px;
+    color: darkblue;
+}
+ul.sandwich:hover .button_menu ul.list{
+    display: block;
+}
+ul {
+    list-style-type: none;
+    display: block;
+}
+ul li {
+    color: black;
+    display: block;
+}
+
+.link:hover {
+    color: azure;
+    background-color: azure;
+    color: #009090;
+}
+.link {
+    position: inherit;
+}
+.items:hover {
+    color:azure;
+    background-color: azure;
+    color: #009090;
+}
+.items {
+    position: inherit;
+}
+ul li.items {
+    list-style: disc;
+}
+
+
+/*
+ul.list img:hover {
+    display: block;
+    background-color: aquamarine;    
+}
+*/
+
+
+h1 {
+    margin: 0 auto;
+    width: 30%;
+    float: left;
+}
+.logo {
+    width: 33%;
+}
+    
+.gif {
+    display: inline-block;
+    height: 57px;
+    margin: 5px 0px;
+    float: left;
+}
+.logotype {
+    height: 10%;
+    margin-top: 0px;
+    padding-top: 18px;
+}
+.logotype h2 {
+    height: 10%;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    color: #191970;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 0;
+    padding-top: 8px;
+    text-decoration: underline;
+}
+hr {
+    background-color:#03316b;
+    color: darkblue;
+    height: 16px;
+    margin: 0 auto;
+}
+hr {
+    color: aqua;
+    background-color: #04326c;
+    height: 27px;
+}
+.searcher {
+    color: #dca667;
+    border: 3px solid #f9f9f9;
+    border-radius: 5px 5px;
+    width: 13%;
+    float: right;
+    margin-top: -26px;
+    margin-right: 46px;
+    height: 24px;
+}
+.search {
+    float: right;
+    display: block;
+    height: 25px;
+    width: 19px;
+    margin-top: -26px;
+    margin-right: 15px;
+}
+.jobs {
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px 10px;
+    border: 3px solid #191970;
+    padding: 0px;
+}
+.compas {
+    width: 100%;
+    padding: 26px 20px 0px 13px;
+}
+h6 {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.bag {
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px 10px;
+    border: 3px solid #191970;
+}
+.travel {
+   width: 100%;
+   padding: 21px 0px 0px 0px;
+}
+.choice {
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    height: auto;
+    margin: 15px auto;
+    border-radius: 10px 10px ;
+    border: 3px solid #191970;
+}
+.languages {
+   width: 40%;
+}
+.menu .box {
+	width: 70%;
+	max-width: 900px;
+	text-align:center;
+	margin: 0px auto;
+}
+.menu .logo_block {
+	width: 25%;
+	float: left;
+
+}
+.menu .logotype {
+	width: 50%;
+	float: left;
+    height: 66px;
+    padding: 8px 0px;
+}
+.menu .logotype .logo{
+    height: 80px;
+    margin-top: -14px;
+    width: auto;
+}
+.footer {
+	background-color:#191970;
+	width: 100%;
+	height: auto;
+	margin: 15px auto 0px;
+    padding: 20px 99px;
+}
+.footer a {
+    font-size: 10px;
+}
+.Copyright {
+	line-height: 28px;
+    float: right;
+    color: white;
+	text-transform: uppercase;
+}
+.google-plus,
+.facebook,
+.youtube,
+.linkedin{
+	display: inline-block;
+}
+.google-plus a,
+.facebook a,
+.youtube a,
+.linkedin a {
+	line-height:0px;
+	display: block;
+}
+.facebook img,
+.google-plus img,
+.linkedin img,
+.youtube img{
+    margin: 0px 10px;
+    display: inline-block;
+    height: 28px;
+}
+.Copyright {
+    float: right;
+    color: white;
+   text-transform: uppercase;
+    line-height: 28px;
+    font-size: 16px;
+}
+
